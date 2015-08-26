@@ -1,0 +1,28 @@
+{
+  "name": "gulp-sass-jade-boilerplate",
+  "version": "0.0.1",
+  "description": "Kick start for Gulp Sass Jade projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonsavenije/gulp-sass-jade-boilerplate.git"
+  },
+  "keywords": [
+    "Gulp",
+    "Sass",
+    "Jade",
+    "Boilerplate"
+  ],
+  "author": "Ton Savenije",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonsavenije/gulp-sass-jade-boilerplate/issues"
+  },
+  "homepage": "https://github.com/tonsavenije/gulp-sass-jade-boilerplate#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
