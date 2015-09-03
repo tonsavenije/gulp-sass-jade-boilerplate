@@ -1,0 +1,29 @@
+{
+  "name": "gulp-sass-jade-boilerplate",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tonsavenije/gulp-sass-jade-boilerplate",
+  "authors": [
+    "Ton Savenije"
+  ],
+  "description": "This is a coffescript boilerplate to give my projects a kickstart",
+  "main": "jquery",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "jade",
+    "sass",
+    "coffeescript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
