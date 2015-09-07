@@ -45,7 +45,7 @@ gulp.task 'minify',
 	['vendor', 'bower', 'coffee'], ->
 		gulp.src parameters.web_path+'/js/**.js'
 		.pipe uglify outSourceMap: true
-		.pipe gulp.dest parameters.web_path+'js'
+		.pipe gulp.dest parameters.web_path+'/js'
 		.on 'error', gutil.log
 
 gulp.task 'assets', ->
@@ -65,7 +65,7 @@ gulp.task 'watch', ['build'], -> # After all build tasks are done
 
 gulp.task 'serve', ['build'], serve parameters.web_path
 
-gulp.task 'build', ['sass', 'jade', 'coffee', 'bower', 'vendor']
+gulp.task 'build', ['sass', 'jade', 'assets', 'minify']
 
 gulp.task 'default', ->
 	
